@@ -125,6 +125,7 @@ namespace Last_Dairy_Farm_M
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(318, 49);
             this.panel4.TabIndex = 7;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // pictureBox3
             // 
@@ -135,6 +136,7 @@ namespace Last_Dairy_Farm_M
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 15;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // label7
             // 
@@ -147,6 +149,7 @@ namespace Last_Dairy_Farm_M
             this.label7.Size = new System.Drawing.Size(142, 34);
             this.label7.TabIndex = 14;
             this.label7.Text = "Breeding";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // panel7
             // 
@@ -157,6 +160,7 @@ namespace Last_Dairy_Farm_M
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(318, 49);
             this.panel7.TabIndex = 18;
+            this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
             // 
             // pictureBox6
             // 
@@ -167,6 +171,7 @@ namespace Last_Dairy_Farm_M
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 15;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // label16
             // 
@@ -179,6 +184,7 @@ namespace Last_Dairy_Farm_M
             this.label16.Size = new System.Drawing.Size(170, 34);
             this.label16.TabIndex = 14;
             this.label16.Text = "Dashboard";
+            this.label16.Click += new System.EventHandler(this.label16_Click);
             // 
             // panel5
             // 
@@ -189,6 +195,7 @@ namespace Last_Dairy_Farm_M
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(318, 49);
             this.panel5.TabIndex = 6;
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // pictureBox4
             // 
@@ -199,6 +206,7 @@ namespace Last_Dairy_Farm_M
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 15;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // label14
             // 
@@ -211,6 +219,7 @@ namespace Last_Dairy_Farm_M
             this.label14.Size = new System.Drawing.Size(108, 34);
             this.label14.TabIndex = 14;
             this.label14.Text = "Health";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // panel8
             // 
@@ -221,6 +230,7 @@ namespace Last_Dairy_Farm_M
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(318, 49);
             this.panel8.TabIndex = 17;
+            this.panel8.Paint += new System.Windows.Forms.PaintEventHandler(this.panel8_Paint);
             // 
             // pictureBox7
             // 
@@ -231,6 +241,7 @@ namespace Last_Dairy_Farm_M
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 15;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // label17
             // 
@@ -243,6 +254,7 @@ namespace Last_Dairy_Farm_M
             this.label17.Size = new System.Drawing.Size(124, 34);
             this.label17.TabIndex = 14;
             this.label17.Text = "Finance";
+            this.label17.Click += new System.EventHandler(this.label17_Click);
             // 
             // panel3
             // 
@@ -253,6 +265,7 @@ namespace Last_Dairy_Farm_M
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(318, 49);
             this.panel3.TabIndex = 5;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // pictureBox2
             // 
@@ -263,6 +276,7 @@ namespace Last_Dairy_Farm_M
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 15;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // label6
             // 
@@ -275,6 +289,7 @@ namespace Last_Dairy_Farm_M
             this.label6.Size = new System.Drawing.Size(219, 31);
             this.label6.TabIndex = 14;
             this.label6.Text = "Milk Production";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // panel9
             // 
@@ -285,6 +300,7 @@ namespace Last_Dairy_Farm_M
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(318, 49);
             this.panel9.TabIndex = 16;
+            this.panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.panel9_Paint);
             // 
             // pictureBox8
             // 
@@ -295,6 +311,7 @@ namespace Last_Dairy_Farm_M
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 15;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // label18
             // 
@@ -307,6 +324,7 @@ namespace Last_Dairy_Farm_M
             this.label18.Size = new System.Drawing.Size(158, 34);
             this.label18.TabIndex = 14;
             this.label18.Text = "Milk Sales";
+            this.label18.Click += new System.EventHandler(this.label18_Click);
             // 
             // panel2
             // 
@@ -317,6 +335,7 @@ namespace Last_Dairy_Farm_M
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(318, 49);
             this.panel2.TabIndex = 4;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // pictureBox1
             // 
@@ -327,6 +346,7 @@ namespace Last_Dairy_Farm_M
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label5
             // 
@@ -354,6 +374,7 @@ namespace Last_Dairy_Farm_M
             this.label1.Size = new System.Drawing.Size(237, 40);
             this.label1.TabIndex = 12;
             this.label1.Text = "Manage Cows ";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
             // 
@@ -362,6 +383,7 @@ namespace Last_Dairy_Farm_M
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(304, 32);
             this.textBox1.TabIndex = 13;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
@@ -375,6 +397,7 @@ namespace Last_Dairy_Farm_M
             this.label2.Size = new System.Drawing.Size(151, 31);
             this.label2.TabIndex = 14;
             this.label2.Text = "Cows Name";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox6
             // 
@@ -383,6 +406,7 @@ namespace Last_Dairy_Farm_M
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(304, 32);
             this.textBox6.TabIndex = 23;
+            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // textBox2
             // 
@@ -391,6 +415,7 @@ namespace Last_Dairy_Farm_M
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(304, 32);
             this.textBox2.TabIndex = 25;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
@@ -399,6 +424,7 @@ namespace Last_Dairy_Farm_M
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(304, 32);
             this.textBox3.TabIndex = 27;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox4
             // 
@@ -407,6 +433,7 @@ namespace Last_Dairy_Farm_M
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(304, 27);
             this.textBox4.TabIndex = 29;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // dateTimePicker1
             // 
@@ -415,6 +442,7 @@ namespace Last_Dairy_Farm_M
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(304, 22);
             this.dateTimePicker1.TabIndex = 31;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // label9
             // 
@@ -428,6 +456,7 @@ namespace Last_Dairy_Farm_M
             this.label9.Size = new System.Drawing.Size(98, 31);
             this.label9.TabIndex = 32;
             this.label9.Text = "Ear Tag";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label10
             // 
@@ -441,6 +470,7 @@ namespace Last_Dairy_Farm_M
             this.label10.Size = new System.Drawing.Size(75, 31);
             this.label10.TabIndex = 33;
             this.label10.Text = "Color";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // label3
             // 
@@ -454,6 +484,7 @@ namespace Last_Dairy_Farm_M
             this.label3.Size = new System.Drawing.Size(60, 31);
             this.label3.TabIndex = 34;
             this.label3.Text = "Age";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -467,6 +498,7 @@ namespace Last_Dairy_Farm_M
             this.label4.Size = new System.Drawing.Size(81, 31);
             this.label4.TabIndex = 35;
             this.label4.Text = "Breed";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label8
             // 
@@ -480,6 +512,7 @@ namespace Last_Dairy_Farm_M
             this.label8.Size = new System.Drawing.Size(164, 31);
             this.label8.TabIndex = 36;
             this.label8.Text = "Date Of Birth";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label11
             // 
@@ -493,6 +526,7 @@ namespace Last_Dairy_Farm_M
             this.label11.Size = new System.Drawing.Size(100, 31);
             this.label11.TabIndex = 40;
             this.label11.Text = "Pasture";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label12
             // 
@@ -506,6 +540,7 @@ namespace Last_Dairy_Farm_M
             this.label12.Size = new System.Drawing.Size(172, 31);
             this.label12.TabIndex = 39;
             this.label12.Text = "Welgt at Birth";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // textBox5
             // 
@@ -514,6 +549,7 @@ namespace Last_Dairy_Farm_M
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(304, 27);
             this.textBox5.TabIndex = 38;
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textBox7
             // 
@@ -522,6 +558,7 @@ namespace Last_Dairy_Farm_M
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(304, 27);
             this.textBox7.TabIndex = 37;
+            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // dataGridView1
             // 
@@ -533,6 +570,7 @@ namespace Last_Dairy_Farm_M
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1445, 474);
             this.dataGridView1.TabIndex = 41;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // label13
             // 
@@ -546,6 +584,7 @@ namespace Last_Dairy_Farm_M
             this.label13.Size = new System.Drawing.Size(151, 39);
             this.label13.TabIndex = 42;
             this.label13.Text = "Cows List";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // button1
             // 
@@ -558,6 +597,7 @@ namespace Last_Dairy_Farm_M
             this.button1.TabIndex = 43;
             this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -583,6 +623,7 @@ namespace Last_Dairy_Farm_M
             this.button3.TabIndex = 45;
             this.button3.Text = "Delete";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -595,6 +636,7 @@ namespace Last_Dairy_Farm_M
             this.button4.TabIndex = 46;
             this.button4.Text = "Update";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // pictureBox5
             // 
@@ -605,6 +647,7 @@ namespace Last_Dairy_Farm_M
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 19;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // label15
             // 
@@ -619,6 +662,7 @@ namespace Last_Dairy_Farm_M
             this.label15.Size = new System.Drawing.Size(125, 40);
             this.label15.TabIndex = 20;
             this.label15.Text = " DFMS ";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // Cows
             // 
@@ -652,6 +696,7 @@ namespace Last_Dairy_Farm_M
             this.Controls.Add(this.panel1);
             this.Name = "Cows";
             this.Text = "Cows";
+            this.Load += new System.EventHandler(this.Cows_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel4.ResumeLayout(false);
