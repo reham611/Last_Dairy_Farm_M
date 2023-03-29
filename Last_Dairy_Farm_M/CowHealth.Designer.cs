@@ -419,9 +419,9 @@ namespace Last_Dairy_Farm_M
             this.label4.Location = new System.Drawing.Point(1500, 74);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(134, 31);
+            this.label4.Size = new System.Drawing.Size(124, 31);
             this.label4.TabIndex = 86;
-            this.label4.Text = "Noon Milk";
+            this.label4.Text = "Diagnosis";
             // 
             // label3
             // 
