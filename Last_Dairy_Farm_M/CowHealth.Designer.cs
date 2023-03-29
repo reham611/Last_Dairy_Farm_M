@@ -103,9 +103,9 @@ namespace Last_Dairy_Farm_M
             this.label12.Location = new System.Drawing.Point(498, 216);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(106, 31);
+            this.label12.Size = new System.Drawing.Size(133, 31);
             this.label12.TabIndex = 99;
-            this.label12.Text = "Pm Milk";
+            this.label12.Text = "Treatment";
             // 
             // pictureBox4
             // 
