@@ -290,9 +290,9 @@ namespace Last_Dairy_Farm_M
             this.label19.Location = new System.Drawing.Point(1129, 74);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(108, 31);
+            this.label19.Size = new System.Drawing.Size(78, 31);
             this.label19.TabIndex = 95;
-            this.label19.Text = "Am Milk";
+            this.label19.Text = "Event";
             // 
             // label20
             // 
