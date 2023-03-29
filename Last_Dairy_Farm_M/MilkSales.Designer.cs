@@ -559,9 +559,9 @@ namespace Last_Dairy_Farm_M
             this.label20.Location = new System.Drawing.Point(772, 72);
             this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(140, 31);
+            this.label20.Size = new System.Drawing.Size(70, 31);
             this.label20.TabIndex = 117;
-            this.label20.Text = "Cow Name";
+            this.label20.Text = "Price";
             // 
             // label21
             // 
