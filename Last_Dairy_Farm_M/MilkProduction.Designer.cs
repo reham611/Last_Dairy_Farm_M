@@ -341,7 +341,7 @@ namespace Last_Dairy_Farm_M
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Crimson;
-            this.label1.Location = new System.Drawing.Point(995, -4);
+            this.label1.Location = new System.Drawing.Point(995, 7);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(237, 40);
@@ -386,7 +386,7 @@ namespace Last_Dairy_Farm_M
             this.label15.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Crimson;
-            this.label15.Location = new System.Drawing.Point(165, 33);
+            this.label15.Location = new System.Drawing.Point(165, 28);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(125, 40);
@@ -396,9 +396,9 @@ namespace Last_Dairy_Farm_M
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(9, 12);
+            this.pictureBox5.Location = new System.Drawing.Point(9, 7);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(318, 261);
+            this.pictureBox5.Size = new System.Drawing.Size(318, 281);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 19;
             this.pictureBox5.TabStop = false;
@@ -408,7 +408,7 @@ namespace Last_Dairy_Farm_M
             this.panel4.BackColor = System.Drawing.Color.Crimson;
             this.panel4.Controls.Add(this.pictureBox3);
             this.panel4.Controls.Add(this.label7);
-            this.panel4.Location = new System.Drawing.Point(9, 446);
+            this.panel4.Location = new System.Drawing.Point(9, 473);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(318, 49);
             this.panel4.TabIndex = 7;
@@ -440,7 +440,7 @@ namespace Last_Dairy_Farm_M
             this.panel7.BackColor = System.Drawing.Color.Crimson;
             this.panel7.Controls.Add(this.pictureBox6);
             this.panel7.Controls.Add(this.label16);
-            this.panel7.Location = new System.Drawing.Point(9, 612);
+            this.panel7.Location = new System.Drawing.Point(9, 639);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(318, 49);
             this.panel7.TabIndex = 18;
@@ -472,7 +472,7 @@ namespace Last_Dairy_Farm_M
             this.panel5.BackColor = System.Drawing.Color.Crimson;
             this.panel5.Controls.Add(this.pictureBox4);
             this.panel5.Controls.Add(this.label14);
-            this.panel5.Location = new System.Drawing.Point(9, 391);
+            this.panel5.Location = new System.Drawing.Point(9, 418);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(318, 49);
             this.panel5.TabIndex = 6;
@@ -504,7 +504,7 @@ namespace Last_Dairy_Farm_M
             this.panel8.BackColor = System.Drawing.Color.Crimson;
             this.panel8.Controls.Add(this.pictureBox7);
             this.panel8.Controls.Add(this.label17);
-            this.panel8.Location = new System.Drawing.Point(9, 557);
+            this.panel8.Location = new System.Drawing.Point(9, 584);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(318, 49);
             this.panel8.TabIndex = 17;
@@ -536,7 +536,7 @@ namespace Last_Dairy_Farm_M
             this.panel3.BackColor = System.Drawing.Color.Crimson;
             this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.label6);
-            this.panel3.Location = new System.Drawing.Point(9, 336);
+            this.panel3.Location = new System.Drawing.Point(9, 363);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(318, 49);
             this.panel3.TabIndex = 5;
@@ -568,7 +568,7 @@ namespace Last_Dairy_Farm_M
             this.panel9.BackColor = System.Drawing.Color.Crimson;
             this.panel9.Controls.Add(this.pictureBox8);
             this.panel9.Controls.Add(this.label18);
-            this.panel9.Location = new System.Drawing.Point(9, 502);
+            this.panel9.Location = new System.Drawing.Point(9, 529);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(318, 49);
             this.panel9.TabIndex = 16;
@@ -600,7 +600,7 @@ namespace Last_Dairy_Farm_M
             this.panel2.BackColor = System.Drawing.Color.Crimson;
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.label5);
-            this.panel2.Location = new System.Drawing.Point(9, 281);
+            this.panel2.Location = new System.Drawing.Point(9, 308);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(318, 49);
             this.panel2.TabIndex = 4;

@@ -69,6 +69,7 @@ namespace Last_Dairy_Farm_M
             this.Controls.Add(this.pictureBox1);
             this.Name = "splash";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.splash_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

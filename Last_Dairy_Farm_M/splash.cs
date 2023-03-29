@@ -16,5 +16,10 @@ namespace Last_Dairy_Farm_M
         {
             InitializeComponent();
         }
+
+        private void splash_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
