@@ -422,9 +422,9 @@ namespace Last_Dairy_Farm_M
             this.label2.Location = new System.Drawing.Point(383, 90);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(151, 31);
+            this.label2.Size = new System.Drawing.Size(107, 31);
             this.label2.TabIndex = 14;
-            this.label2.Text = "Cows Name";
+            this.label2.Text = "Cows ID";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox6
