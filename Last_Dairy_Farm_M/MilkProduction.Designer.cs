@@ -341,12 +341,12 @@ namespace Last_Dairy_Farm_M
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Crimson;
-            this.label1.Location = new System.Drawing.Point(995, 7);
+            this.label1.Location = new System.Drawing.Point(912, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(237, 40);
+            this.label1.Size = new System.Drawing.Size(346, 40);
             this.label1.TabIndex = 48;
-            this.label1.Text = "Manage Cows ";
+            this.label1.Text = "Daily Milk Production";
             // 
             // label5
             // 
