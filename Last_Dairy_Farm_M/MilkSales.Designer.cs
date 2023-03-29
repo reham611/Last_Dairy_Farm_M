@@ -119,7 +119,7 @@ namespace Last_Dairy_Farm_M
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(768, 117);
+            this.textBox6.Location = new System.Drawing.Point(881, 117);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(304, 32);
             this.textBox6.TabIndex = 104;
@@ -273,7 +273,7 @@ namespace Last_Dairy_Farm_M
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(1131, 117);
+            this.textBox2.Location = new System.Drawing.Point(1327, 117);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(304, 32);
             this.textBox2.TabIndex = 105;
@@ -489,9 +489,9 @@ namespace Last_Dairy_Farm_M
             this.label12.Location = new System.Drawing.Point(502, 214);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(133, 31);
+            this.label12.Size = new System.Drawing.Size(161, 31);
             this.label12.TabIndex = 121;
-            this.label12.Text = "Treatment";
+            this.label12.Text = "Client Phone";
             // 
             // textBox7
             // 
@@ -520,7 +520,7 @@ namespace Last_Dairy_Farm_M
             this.label19.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label19.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.Crimson;
-            this.label19.Location = new System.Drawing.Point(1133, 72);
+            this.label19.Location = new System.Drawing.Point(1329, 72);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(156, 31);
@@ -533,7 +533,7 @@ namespace Last_Dairy_Farm_M
             this.label20.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label20.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.Crimson;
-            this.label20.Location = new System.Drawing.Point(772, 72);
+            this.label20.Location = new System.Drawing.Point(885, 72);
             this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(70, 31);
