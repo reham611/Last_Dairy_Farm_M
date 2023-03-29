@@ -214,9 +214,9 @@ namespace Last_Dairy_Farm_M
             this.label3.Location = new System.Drawing.Point(895, 214);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(221, 31);
+            this.label3.Size = new System.Drawing.Size(121, 31);
             this.label3.TabIndex = 108;
-            this.label3.Text = "Cost of Treatment";
+            this.label3.Text = "Quantity ";
             // 
             // textBox4
             // 
