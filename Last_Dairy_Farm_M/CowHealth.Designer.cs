@@ -395,9 +395,9 @@ namespace Last_Dairy_Farm_M
             this.label13.Location = new System.Drawing.Point(994, 392);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(151, 39);
+            this.label13.Size = new System.Drawing.Size(217, 39);
             this.label13.TabIndex = 88;
-            this.label13.Text = "Cows List";
+            this.label13.Text = "Health Report";
             // 
             // dataGridView1
             // 
