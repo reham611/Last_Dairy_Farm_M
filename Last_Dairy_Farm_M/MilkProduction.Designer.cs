@@ -599,6 +599,7 @@ namespace Last_Dairy_Farm_M
             this.comboBox1.Size = new System.Drawing.Size(261, 39);
             this.comboBox1.TabIndex = 78;
             this.comboBox1.Text = "Select Role";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // MilkProduction
             // 
