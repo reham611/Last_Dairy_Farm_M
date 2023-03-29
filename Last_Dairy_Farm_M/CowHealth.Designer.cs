@@ -508,9 +508,9 @@ namespace Last_Dairy_Farm_M
             this.label1.Location = new System.Drawing.Point(921, 4);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(346, 40);
+            this.label1.Size = new System.Drawing.Size(228, 40);
             this.label1.TabIndex = 79;
-            this.label1.Text = "Daily Milk Production";
+            this.label1.Text = "Health Report";
             // 
             // panel1
             // 
