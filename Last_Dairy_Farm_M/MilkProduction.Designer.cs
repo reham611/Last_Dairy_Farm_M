@@ -243,9 +243,9 @@ namespace Last_Dairy_Farm_M
             this.label3.Location = new System.Drawing.Point(759, 233);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 31);
+            this.label3.Size = new System.Drawing.Size(126, 31);
             this.label3.TabIndex = 58;
-            this.label3.Text = "Age";
+            this.label3.Text = "Total Milk";
             // 
             // dateTimePicker1
             // 
