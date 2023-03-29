@@ -42,7 +42,6 @@ namespace Last_Dairy_Farm_M
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -75,6 +74,7 @@ namespace Last_Dairy_Farm_M
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label12 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -222,14 +222,6 @@ namespace Last_Dairy_Farm_M
             this.textBox6.Size = new System.Drawing.Size(304, 32);
             this.textBox6.TabIndex = 51;
             // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(397, 124);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(304, 32);
-            this.textBox1.TabIndex = 49;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -294,7 +286,7 @@ namespace Last_Dairy_Farm_M
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(9, 7);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(318, 281);
+            this.pictureBox5.Size = new System.Drawing.Size(328, 281);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 19;
             this.pictureBox5.TabStop = false;
@@ -306,7 +298,7 @@ namespace Last_Dairy_Farm_M
             this.panel4.Controls.Add(this.label7);
             this.panel4.Location = new System.Drawing.Point(9, 473);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(318, 49);
+            this.panel4.Size = new System.Drawing.Size(328, 49);
             this.panel4.TabIndex = 7;
             // 
             // pictureBox3
@@ -338,7 +330,7 @@ namespace Last_Dairy_Farm_M
             this.panel7.Controls.Add(this.label16);
             this.panel7.Location = new System.Drawing.Point(9, 639);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(318, 49);
+            this.panel7.Size = new System.Drawing.Size(328, 49);
             this.panel7.TabIndex = 18;
             // 
             // pictureBox6
@@ -370,7 +362,7 @@ namespace Last_Dairy_Farm_M
             this.panel5.Controls.Add(this.label14);
             this.panel5.Location = new System.Drawing.Point(9, 418);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(318, 49);
+            this.panel5.Size = new System.Drawing.Size(328, 49);
             this.panel5.TabIndex = 6;
             // 
             // pictureBox4
@@ -402,7 +394,7 @@ namespace Last_Dairy_Farm_M
             this.panel8.Controls.Add(this.label17);
             this.panel8.Location = new System.Drawing.Point(9, 584);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(318, 49);
+            this.panel8.Size = new System.Drawing.Size(328, 49);
             this.panel8.TabIndex = 17;
             // 
             // pictureBox7
@@ -429,12 +421,12 @@ namespace Last_Dairy_Farm_M
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.Crimson;
+            this.panel3.BackColor = System.Drawing.Color.GreenYellow;
             this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Location = new System.Drawing.Point(9, 363);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(318, 49);
+            this.panel3.Size = new System.Drawing.Size(328, 49);
             this.panel3.TabIndex = 5;
             // 
             // pictureBox2
@@ -450,8 +442,9 @@ namespace Last_Dairy_Farm_M
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.GreenYellow;
             this.label6.Font = new System.Drawing.Font("Lucida Sans Unicode", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.label6.ForeColor = System.Drawing.Color.Crimson;
             this.label6.Location = new System.Drawing.Point(92, 10);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
@@ -466,7 +459,7 @@ namespace Last_Dairy_Farm_M
             this.panel9.Controls.Add(this.label18);
             this.panel9.Location = new System.Drawing.Point(9, 529);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(318, 49);
+            this.panel9.Size = new System.Drawing.Size(328, 49);
             this.panel9.TabIndex = 16;
             // 
             // pictureBox8
@@ -498,7 +491,7 @@ namespace Last_Dairy_Farm_M
             this.panel2.Controls.Add(this.label5);
             this.panel2.Location = new System.Drawing.Point(9, 308);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(318, 49);
+            this.panel2.Size = new System.Drawing.Size(328, 49);
             this.panel2.TabIndex = 4;
             // 
             // button3
@@ -594,11 +587,25 @@ namespace Last_Dairy_Farm_M
             this.textBox7.Size = new System.Drawing.Size(304, 27);
             this.textBox7.TabIndex = 76;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            ""});
+            this.comboBox1.Location = new System.Drawing.Point(406, 119);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(261, 39);
+            this.comboBox1.TabIndex = 78;
+            this.comboBox1.Text = "Select Role";
+            // 
             // MilkProduction
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1829, 902);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.label8);
@@ -617,7 +624,6 @@ namespace Last_Dairy_Farm_M
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button3);
@@ -668,7 +674,6 @@ namespace Last_Dairy_Farm_M
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel1;
@@ -701,5 +706,6 @@ namespace Last_Dairy_Farm_M
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

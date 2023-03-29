@@ -111,7 +111,7 @@ namespace Last_Dairy_Farm_M
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Crimson;
+            this.panel2.BackColor = System.Drawing.Color.GreenYellow;
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Location = new System.Drawing.Point(9, 308);
