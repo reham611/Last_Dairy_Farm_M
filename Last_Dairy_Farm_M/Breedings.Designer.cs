@@ -475,9 +475,9 @@ namespace Last_Dairy_Farm_M
             this.label3.Location = new System.Drawing.Point(870, 213);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(121, 31);
+            this.label3.Size = new System.Drawing.Size(279, 31);
             this.label3.TabIndex = 130;
-            this.label3.Text = "Quantity ";
+            this.label3.Text = "Expected Date to Calve";
             // 
             // button4
             // 
