@@ -117,29 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="vector-sale-icon-design" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vector-sale-icon-design.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="OIP (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OIP (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sick-cow-with-bandage-on-a-leg-icon-in-black-style-vector-127678321" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sick-cow-with-bandage-on-a-leg-icon-in-black-style-vector-127678321.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="6c7a4b83d6c68e6293314f8ae9389698" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\6c7a4b83d6c68e6293314f8ae9389698.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2299718-plat-style-plastique-bouteille-de-lait-icone-isole-sur-fond-blanc-gratuit-vectoriel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2299718-plat-style-plastique-bouteille-de-lait-icone-isole-sur-fond-blanc-gratuit-vectoriel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="R" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\R.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sick-cow-with-bandage-on-a-leg-icon-in-black-style-vector-12767832" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sick-cow-with-bandage-on-a-leg-icon-in-black-style-vector-12767832.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="OIP (3jjj)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OIP (3jjj).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

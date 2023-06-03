@@ -1,5 +1,5 @@
 ﻿
-namespace Last_Dairy_Farm_M
+namespace Cow_Farm_System
 {
     partial class MilkSales
     {
@@ -30,601 +30,633 @@ namespace Last_Dairy_Farm_M
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MilkSales));
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.label17 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.CowsPg = new System.Windows.Forms.Label();
+            this.SList = new System.Windows.Forms.DataGridView();
+            this.label19 = new System.Windows.Forms.Label();
+            this.ClearBtn = new System.Windows.Forms.Button();
+            this.SaveBtn = new System.Windows.Forms.Button();
+            this.SDate = new System.Windows.Forms.DateTimePicker();
+            this.STotal = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.MilkPg = new System.Windows.Forms.Label();
+            this.SQuantity = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.HealthPg = new System.Windows.Forms.Label();
+            this.SCPhone = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.BreadingPg = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.DashboardPg = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.FinancePg = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.SalesPg = new System.Windows.Forms.Label();
+            this.SCName = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.SPrice = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.EID = new System.Windows.Forms.ComboBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SList)).BeginInit();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button2
+            // label11
             // 
-            this.button2.BackColor = System.Drawing.Color.Orange;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(836, 315);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(185, 43);
-            this.button2.TabIndex = 113;
-            this.button2.Text = "Edit";
-            this.button2.UseVisualStyleBackColor = false;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Crimson;
+            this.label11.Location = new System.Drawing.Point(352, 120);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(162, 29);
+            this.label11.TabIndex = 51;
+            this.label11.Text = "Employee ID";
             // 
-            // button1
+            // panel3
             // 
-            this.button1.BackColor = System.Drawing.Color.Crimson;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(561, 315);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(185, 43);
-            this.button1.TabIndex = 112;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = false;
+            this.panel3.BackColor = System.Drawing.Color.GreenYellow;
+            this.panel3.Controls.Add(this.pictureBox2);
+            this.panel3.Controls.Add(this.CowsPg);
+            this.panel3.Location = new System.Drawing.Point(0, 277);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(300, 54);
+            this.panel3.TabIndex = 9;
             // 
-            // textBox6
+            // pictureBox2
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(864, 121);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(304, 32);
-            this.textBox6.TabIndex = 104;
-            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
+            this.pictureBox2.Image = global::Last_Dairy_Farm_M.Properties.Resources.R;
+            this.pictureBox2.Location = new System.Drawing.Point(2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(68, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
+            // 
+            // CowsPg
+            // 
+            this.CowsPg.AutoSize = true;
+            this.CowsPg.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CowsPg.ForeColor = System.Drawing.Color.White;
+            this.CowsPg.Location = new System.Drawing.Point(125, 11);
+            this.CowsPg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.CowsPg.Name = "CowsPg";
+            this.CowsPg.Size = new System.Drawing.Size(83, 31);
+            this.CowsPg.TabIndex = 4;
+            this.CowsPg.Text = "Cows";
+            // 
+            // SList
+            // 
+            this.SList.AllowUserToAddRows = false;
+            this.SList.AllowUserToDeleteRows = false;
+            this.SList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.SList.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.SList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.SList.Location = new System.Drawing.Point(397, 522);
+            this.SList.Margin = new System.Windows.Forms.Padding(4);
+            this.SList.Name = "SList";
+            this.SList.ReadOnly = true;
+            this.SList.RowHeadersWidth = 51;
+            this.SList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.SList.Size = new System.Drawing.Size(1183, 401);
+            this.SList.TabIndex = 50;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.Crimson;
+            this.label19.Location = new System.Drawing.Point(943, 476);
+            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(183, 31);
+            this.label19.TabIndex = 49;
+            this.label19.Text = "Sales Report";
+            // 
+            // ClearBtn
+            // 
+            this.ClearBtn.BackColor = System.Drawing.Color.DarkOrange;
+            this.ClearBtn.FlatAppearance.BorderSize = 0;
+            this.ClearBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ClearBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.ClearBtn.ForeColor = System.Drawing.Color.White;
+            this.ClearBtn.Location = new System.Drawing.Point(1069, 392);
+            this.ClearBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.ClearBtn.Name = "ClearBtn";
+            this.ClearBtn.Size = new System.Drawing.Size(185, 39);
+            this.ClearBtn.TabIndex = 48;
+            this.ClearBtn.Text = "Clear";
+            this.ClearBtn.UseVisualStyleBackColor = false;
+            // 
+            // SaveBtn
+            // 
+            this.SaveBtn.BackColor = System.Drawing.Color.Crimson;
+            this.SaveBtn.FlatAppearance.BorderSize = 0;
+            this.SaveBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SaveBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.SaveBtn.ForeColor = System.Drawing.Color.White;
+            this.SaveBtn.Location = new System.Drawing.Point(741, 392);
+            this.SaveBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.SaveBtn.Name = "SaveBtn";
+            this.SaveBtn.Size = new System.Drawing.Size(185, 39);
+            this.SaveBtn.TabIndex = 47;
+            this.SaveBtn.Text = "Save";
+            this.SaveBtn.UseVisualStyleBackColor = false;
+            this.SaveBtn.Click += new System.EventHandler(this.SaveBtn_Click);
+            // 
+            // SDate
+            // 
+            this.SDate.CustomFormat = "yyyy-MM-dd";
+            this.SDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.SDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.SDate.Location = new System.Drawing.Point(687, 157);
+            this.SDate.Margin = new System.Windows.Forms.Padding(4);
+            this.SDate.Name = "SDate";
+            this.SDate.Size = new System.Drawing.Size(265, 37);
+            this.SDate.TabIndex = 46;
+            this.SDate.Value = new System.DateTime(2023, 2, 26, 0, 0, 0, 0);
+            // 
+            // STotal
+            // 
+            this.STotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.STotal.Location = new System.Drawing.Point(1252, 274);
+            this.STotal.Margin = new System.Windows.Forms.Padding(4);
+            this.STotal.Name = "STotal";
+            this.STotal.Size = new System.Drawing.Size(248, 37);
+            this.STotal.TabIndex = 45;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.White;
-            this.label15.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
-                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Crimson;
-            this.label15.Location = new System.Drawing.Point(165, 28);
-            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label15.Location = new System.Drawing.Point(1245, 237);
+            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(125, 40);
-            this.label15.TabIndex = 20;
-            this.label15.Text = " DFMS ";
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(9, 7);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(318, 281);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 19;
-            this.pictureBox5.TabStop = false;
+            this.label15.Size = new System.Drawing.Size(73, 29);
+            this.label15.TabIndex = 44;
+            this.label15.Text = "Total";
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.Crimson;
             this.panel4.Controls.Add(this.pictureBox3);
-            this.panel4.Controls.Add(this.label7);
-            this.panel4.Location = new System.Drawing.Point(9, 473);
+            this.panel4.Controls.Add(this.MilkPg);
+            this.panel4.Location = new System.Drawing.Point(0, 348);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(318, 49);
-            this.panel4.TabIndex = 7;
+            this.panel4.Size = new System.Drawing.Size(300, 54);
+            this.panel4.TabIndex = 10;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(5, 3);
+            this.pictureBox3.Location = new System.Drawing.Point(3, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(82, 43);
+            this.pictureBox3.Size = new System.Drawing.Size(68, 50);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 15;
+            this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
             // 
-            // label7
+            // MilkPg
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Lucida Sans Unicode", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.label7.Location = new System.Drawing.Point(169, 8);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(142, 34);
-            this.label7.TabIndex = 14;
-            this.label7.Text = "Breeding";
+            this.MilkPg.AutoSize = true;
+            this.MilkPg.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MilkPg.ForeColor = System.Drawing.Color.White;
+            this.MilkPg.Location = new System.Drawing.Point(76, 11);
+            this.MilkPg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.MilkPg.Name = "MilkPg";
+            this.MilkPg.Size = new System.Drawing.Size(199, 31);
+            this.MilkPg.TabIndex = 4;
+            this.MilkPg.Text = "Milk Production";
             // 
-            // label13
+            // SQuantity
             // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.DarkGray;
-            this.label13.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label13.Location = new System.Drawing.Point(998, 390);
-            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(196, 39);
-            this.label13.TabIndex = 111;
-            this.label13.Text = "Sales Report";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.Silver;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(379, 431);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1445, 474);
-            this.dataGridView1.TabIndex = 110;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Crimson;
-            this.label3.Location = new System.Drawing.Point(868, 214);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(121, 31);
-            this.label3.TabIndex = 108;
-            this.label3.Text = "Quantity ";
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.Crimson;
-            this.panel7.Controls.Add(this.pictureBox6);
-            this.panel7.Controls.Add(this.label16);
-            this.panel7.Location = new System.Drawing.Point(9, 639);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(318, 49);
-            this.panel7.TabIndex = 18;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(5, 0);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(82, 46);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 15;
-            this.pictureBox6.TabStop = false;
+            this.SQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.SQuantity.Location = new System.Drawing.Point(843, 274);
+            this.SQuantity.Margin = new System.Windows.Forms.Padding(4);
+            this.SQuantity.Name = "SQuantity";
+            this.SQuantity.Size = new System.Drawing.Size(248, 37);
+            this.SQuantity.TabIndex = 43;
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Lucida Sans Unicode", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.label16.Location = new System.Drawing.Point(141, 8);
-            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.Crimson;
+            this.label16.Location = new System.Drawing.Point(836, 237);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(170, 34);
-            this.label16.TabIndex = 14;
-            this.label16.Text = "Dashboard";
+            this.label16.Size = new System.Drawing.Size(108, 29);
+            this.label16.TabIndex = 42;
+            this.label16.Text = "Quantity";
             // 
-            // button4
+            // panel6
             // 
-            this.button4.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(1398, 315);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(185, 43);
-            this.button4.TabIndex = 115;
-            this.button4.Text = "Update";
-            this.button4.UseVisualStyleBackColor = false;
+            this.panel6.Controls.Add(this.pictureBox5);
+            this.panel6.Controls.Add(this.HealthPg);
+            this.panel6.Location = new System.Drawing.Point(0, 418);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(300, 54);
+            this.panel6.TabIndex = 11;
             // 
-            // textBox2
+            // pictureBox5
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(1279, 121);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(304, 32);
-            this.textBox2.TabIndex = 105;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(7, 1);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(68, 50);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 9;
+            this.pictureBox5.TabStop = false;
             // 
-            // textBox1
+            // HealthPg
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(1287, 255);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(304, 32);
-            this.textBox1.TabIndex = 103;
+            this.HealthPg.AutoSize = true;
+            this.HealthPg.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HealthPg.ForeColor = System.Drawing.Color.White;
+            this.HealthPg.Location = new System.Drawing.Point(125, 11);
+            this.HealthPg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.HealthPg.Name = "HealthPg";
+            this.HealthPg.Size = new System.Drawing.Size(93, 31);
+            this.HealthPg.TabIndex = 4;
+            this.HealthPg.Text = "Health";
             // 
-            // label1
+            // SCPhone
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
-                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Crimson;
-            this.label1.Location = new System.Drawing.Point(999, 3);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 40);
-            this.label1.TabIndex = 102;
-            this.label1.Text = "Milk Sales";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Crimson;
-            this.panel1.Controls.Add(this.label15);
-            this.panel1.Controls.Add(this.pictureBox5);
-            this.panel1.Controls.Add(this.panel4);
-            this.panel1.Controls.Add(this.panel7);
-            this.panel1.Controls.Add(this.panel5);
-            this.panel1.Controls.Add(this.panel8);
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.panel9);
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(340, 902);
-            this.panel1.TabIndex = 101;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.Crimson;
-            this.panel5.Controls.Add(this.pictureBox4);
-            this.panel5.Controls.Add(this.label14);
-            this.panel5.Location = new System.Drawing.Point(9, 418);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(318, 49);
-            this.panel5.TabIndex = 6;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(5, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(82, 43);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 15;
-            this.pictureBox4.TabStop = false;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.Crimson;
-            this.label14.Font = new System.Drawing.Font("Lucida Sans Unicode", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.label14.Location = new System.Drawing.Point(199, 6);
-            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(108, 34);
-            this.label14.TabIndex = 14;
-            this.label14.Text = "Health";
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.Crimson;
-            this.panel8.Controls.Add(this.pictureBox7);
-            this.panel8.Controls.Add(this.label17);
-            this.panel8.Location = new System.Drawing.Point(9, 584);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(318, 49);
-            this.panel8.TabIndex = 17;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(5, 3);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(82, 46);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 15;
-            this.pictureBox7.TabStop = false;
+            this.SCPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.SCPhone.Location = new System.Drawing.Point(415, 274);
+            this.SCPhone.Margin = new System.Windows.Forms.Padding(4);
+            this.SCPhone.Name = "SCPhone";
+            this.SCPhone.Size = new System.Drawing.Size(248, 37);
+            this.SCPhone.TabIndex = 41;
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Lucida Sans Unicode", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.label17.Location = new System.Drawing.Point(185, 8);
-            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.Crimson;
+            this.label17.Location = new System.Drawing.Point(408, 237);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(124, 34);
-            this.label17.TabIndex = 14;
-            this.label17.Text = "Finance";
+            this.label17.Size = new System.Drawing.Size(163, 29);
+            this.label17.TabIndex = 40;
+            this.label17.Text = "Client Phone";
             // 
-            // panel3
+            // panel5
             // 
-            this.panel3.BackColor = System.Drawing.Color.Crimson;
-            this.panel3.Controls.Add(this.pictureBox2);
-            this.panel3.Controls.Add(this.label6);
-            this.panel3.Location = new System.Drawing.Point(9, 363);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(318, 49);
-            this.panel3.TabIndex = 5;
+            this.panel5.Controls.Add(this.pictureBox4);
+            this.panel5.Controls.Add(this.BreadingPg);
+            this.panel5.Location = new System.Drawing.Point(0, 491);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(300, 54);
+            this.panel5.TabIndex = 12;
             // 
-            // pictureBox2
+            // pictureBox4
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(5, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(82, 46);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 15;
-            this.pictureBox2.TabStop = false;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(5, 1);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(68, 50);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 9;
+            this.pictureBox4.TabStop = false;
             // 
-            // label6
+            // BreadingPg
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Lucida Sans Unicode", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.label6.Location = new System.Drawing.Point(92, 10);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(219, 31);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "Milk Production";
+            this.BreadingPg.AutoSize = true;
+            this.BreadingPg.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BreadingPg.ForeColor = System.Drawing.Color.White;
+            this.BreadingPg.Location = new System.Drawing.Point(108, 11);
+            this.BreadingPg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.BreadingPg.Name = "BreadingPg";
+            this.BreadingPg.Size = new System.Drawing.Size(122, 31);
+            this.BreadingPg.TabIndex = 4;
+            this.BreadingPg.Text = "Breading";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.Crimson;
+            this.label18.Location = new System.Drawing.Point(683, 120);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(67, 29);
+            this.label18.TabIndex = 39;
+            this.label18.Text = "Date";
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.pictureBox6);
+            this.panel7.Controls.Add(this.DashboardPg);
+            this.panel7.Location = new System.Drawing.Point(0, 702);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(300, 54);
+            this.panel7.TabIndex = 15;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(2, 3);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(68, 50);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 9;
+            this.pictureBox6.TabStop = false;
+            // 
+            // DashboardPg
+            // 
+            this.DashboardPg.AutoSize = true;
+            this.DashboardPg.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DashboardPg.ForeColor = System.Drawing.Color.White;
+            this.DashboardPg.Location = new System.Drawing.Point(100, 11);
+            this.DashboardPg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.DashboardPg.Name = "DashboardPg";
+            this.DashboardPg.Size = new System.Drawing.Size(147, 31);
+            this.DashboardPg.TabIndex = 4;
+            this.DashboardPg.Text = "Dashboard";
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.pictureBox7);
+            this.panel8.Controls.Add(this.FinancePg);
+            this.panel8.Location = new System.Drawing.Point(0, 633);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(300, 54);
+            this.panel8.TabIndex = 14;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(3, 1);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(68, 50);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 9;
+            this.pictureBox7.TabStop = false;
+            // 
+            // FinancePg
+            // 
+            this.FinancePg.AutoSize = true;
+            this.FinancePg.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FinancePg.ForeColor = System.Drawing.Color.White;
+            this.FinancePg.Location = new System.Drawing.Point(125, 11);
+            this.FinancePg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.FinancePg.Name = "FinancePg";
+            this.FinancePg.Size = new System.Drawing.Size(111, 31);
+            this.FinancePg.TabIndex = 4;
+            this.FinancePg.Text = "Finance";
             // 
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.GreenYellow;
             this.panel9.Controls.Add(this.pictureBox8);
-            this.panel9.Controls.Add(this.label18);
-            this.panel9.Location = new System.Drawing.Point(9, 529);
+            this.panel9.Controls.Add(this.SalesPg);
+            this.panel9.Location = new System.Drawing.Point(0, 561);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(318, 49);
-            this.panel9.TabIndex = 16;
+            this.panel9.Size = new System.Drawing.Size(300, 54);
+            this.panel9.TabIndex = 13;
             // 
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(5, 3);
+            this.pictureBox8.Location = new System.Drawing.Point(2, 2);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(82, 46);
+            this.pictureBox8.Size = new System.Drawing.Size(68, 50);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 15;
+            this.pictureBox8.TabIndex = 9;
             this.pictureBox8.TabStop = false;
             // 
-            // label18
+            // SalesPg
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Lucida Sans Unicode", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.Crimson;
-            this.label18.Location = new System.Drawing.Point(150, 7);
-            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(158, 34);
-            this.label18.TabIndex = 14;
-            this.label18.Text = "Milk Sales";
+            this.SalesPg.AutoSize = true;
+            this.SalesPg.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SalesPg.ForeColor = System.Drawing.Color.White;
+            this.SalesPg.Location = new System.Drawing.Point(105, 11);
+            this.SalesPg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.SalesPg.Name = "SalesPg";
+            this.SalesPg.Size = new System.Drawing.Size(137, 31);
+            this.SalesPg.TabIndex = 4;
+            this.SalesPg.Text = "Milk Sales";
             // 
-            // panel2
+            // SCName
             // 
-            this.panel2.BackColor = System.Drawing.Color.Crimson;
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Location = new System.Drawing.Point(9, 308);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(318, 49);
-            this.panel2.TabIndex = 4;
+            this.SCName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.SCName.Location = new System.Drawing.Point(1353, 157);
+            this.SCName.Margin = new System.Windows.Forms.Padding(4);
+            this.SCName.Name = "SCName";
+            this.SCName.Size = new System.Drawing.Size(248, 37);
+            this.SCName.TabIndex = 38;
             // 
-            // pictureBox1
+            // label14
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(5, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(82, 46);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.Crimson;
+            this.label14.Location = new System.Drawing.Point(1347, 120);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(157, 29);
+            this.label14.TabIndex = 37;
+            this.label14.Text = "Client Name";
             // 
-            // label5
+            // SPrice
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Lucida Sans Unicode", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.label5.Location = new System.Drawing.Point(231, 9);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 31);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "Cows";
+            this.SPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.SPrice.Location = new System.Drawing.Point(1028, 157);
+            this.SPrice.Margin = new System.Windows.Forms.Padding(4);
+            this.SPrice.Name = "SPrice";
+            this.SPrice.Size = new System.Drawing.Size(248, 37);
+            this.SPrice.TabIndex = 36;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label12.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Crimson;
-            this.label12.Location = new System.Drawing.Point(432, 214);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Location = new System.Drawing.Point(1021, 120);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(161, 31);
-            this.label12.TabIndex = 121;
-            this.label12.Text = "Client Phone";
+            this.label12.Size = new System.Drawing.Size(74, 29);
+            this.label12.TabIndex = 35;
+            this.label12.Text = "Price";
             // 
-            // label8
+            // label3
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label8.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Crimson;
-            this.label8.Location = new System.Drawing.Point(1299, 214);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(71, 31);
-            this.label8.TabIndex = 119;
-            this.label8.Text = "Total";
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Crimson;
+            this.label3.Location = new System.Drawing.Point(911, 46);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(161, 36);
+            this.label3.TabIndex = 34;
+            this.label3.Text = "Milk Sales";
             // 
-            // label19
+            // pictureBox1
             // 
-            this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label19.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.Crimson;
-            this.label19.Location = new System.Drawing.Point(1281, 76);
-            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(156, 31);
-            this.label19.TabIndex = 118;
-            this.label19.Text = "Client Name";
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(5, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(291, 265);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
-            // label20
+            // panel1
             // 
-            this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label20.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.Crimson;
-            this.label20.Location = new System.Drawing.Point(868, 76);
-            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(70, 31);
-            this.label20.TabIndex = 117;
-            this.label20.Text = "Price";
+            this.panel1.BackColor = System.Drawing.Color.Crimson;
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.panel7);
+            this.panel1.Controls.Add(this.panel8);
+            this.panel1.Controls.Add(this.panel9);
+            this.panel1.Controls.Add(this.panel5);
+            this.panel1.Controls.Add(this.panel6);
+            this.panel1.Controls.Add(this.panel4);
+            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 42);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(300, 860);
+            this.panel1.TabIndex = 32;
             // 
-            // label21
+            // EID
             // 
-            this.label21.AutoSize = true;
-            this.label21.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label21.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.Crimson;
-            this.label21.Location = new System.Drawing.Point(423, 72);
-            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(68, 31);
-            this.label21.TabIndex = 116;
-            this.label21.Text = "Date";
+            this.EID.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.EID.FormattingEnabled = true;
+            this.EID.Location = new System.Drawing.Point(357, 158);
+            this.EID.Margin = new System.Windows.Forms.Padding(4);
+            this.EID.Name = "EID";
+            this.EID.Size = new System.Drawing.Size(260, 38);
+            this.EID.TabIndex = 52;
             // 
-            // button3
+            // panel2
             // 
-            this.button3.BackColor = System.Drawing.Color.Blue;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(1125, 315);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(185, 43);
-            this.button3.TabIndex = 114;
-            this.button3.Text = "Delete";
-            this.button3.UseVisualStyleBackColor = false;
+            this.panel2.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1829, 42);
+            this.panel2.TabIndex = 33;
             // 
-            // dateTimePicker1
+            // label2
             // 
-            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(429, 127);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(304, 22);
-            this.dateTimePicker1.TabIndex = 122;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(864, 255);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(304, 32);
-            this.textBox3.TabIndex = 123;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(429, 255);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(304, 32);
-            this.textBox4.TabIndex = 124;
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic)
+                | System.Drawing.FontStyle.Underline))));
+            this.label2.ForeColor = System.Drawing.Color.Crimson;
+            this.label2.Location = new System.Drawing.Point(153, 29);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(104, 33);
+            this.label2.TabIndex = 21;
+            this.label2.Text = " DFMS ";
             // 
             // MilkSales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1829, 902);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.SList);
             this.Controls.Add(this.label19);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.ClearBtn);
+            this.Controls.Add(this.SaveBtn);
+            this.Controls.Add(this.SDate);
+            this.Controls.Add(this.STotal);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.SQuantity);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.SCPhone);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.SCName);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.SPrice);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.EID);
+            this.Controls.Add(this.panel2);
             this.Name = "MilkSales";
             this.Text = "MilkSales";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SList)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -632,48 +664,49 @@ namespace Last_Dairy_Farm_M
 
         #endregion
 
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label CowsPg;
+        private System.Windows.Forms.DataGridView SList;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Button ClearBtn;
+        private System.Windows.Forms.Button SaveBtn;
+        private System.Windows.Forms.DateTimePicker SDate;
+        private System.Windows.Forms.TextBox STotal;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label MilkPg;
+        private System.Windows.Forms.TextBox SQuantity;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Label HealthPg;
+        private System.Windows.Forms.TextBox SCPhone;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label BreadingPg;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Label DashboardPg;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Label FinancePg;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label SalesPg;
+        private System.Windows.Forms.TextBox SCName;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox SPrice;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ComboBox EID;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label2;
     }
 }

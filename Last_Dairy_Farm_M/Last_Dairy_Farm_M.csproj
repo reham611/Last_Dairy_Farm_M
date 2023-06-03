@@ -64,17 +64,35 @@
     <Compile Include="Cows.Designer.cs">
       <DependentUpon>Cows.cs</DependentUpon>
     </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finance.Designer.cs">
+      <DependentUpon>Finance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MilkProductionn.cs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MilkProductionn.cs.Designer.cs">
+      <DependentUpon>MilkProductionn.cs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MilkProduction.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MilkProduction.Designer.cs">
-      <DependentUpon>MilkProduction.cs</DependentUpon>
     </Compile>
     <Compile Include="MilkSales.cs">
       <SubType>Form</SubType>
@@ -99,11 +117,20 @@
     <EmbeddedResource Include="Cows.resx">
       <DependentUpon>Cows.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance.resx">
+      <DependentUpon>Finance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MilkProductionn.cs.resx">
+      <DependentUpon>MilkProductionn.cs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MilkProduction.resx">
-      <DependentUpon>MilkProduction.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MilkSales.resx">
       <DependentUpon>MilkSales.cs</DependentUpon>
@@ -119,6 +146,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -132,6 +160,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2299718-plat-style-plastique-bouteille-de-lait-icone-isole-sur-fond-blanc-gratuit-vectoriel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sick-cow-with-bandage-on-a-leg-icon-in-black-style-vector-12767832.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6c7a4b83d6c68e6293314f8ae9389698.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sick-cow-with-bandage-on-a-leg-icon-in-black-style-vector-127678321.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vector-sale-icon-design.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %283jjj%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

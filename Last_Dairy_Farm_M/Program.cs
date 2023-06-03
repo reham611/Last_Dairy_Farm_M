@@ -16,7 +16,7 @@ namespace Last_Dairy_Farm_M
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MilkProduction());
+            Application.Run(new Cows());
         }
     }
 }

@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace Last_Dairy_Farm_M
 {
-    public partial class MilkProduction : Form
+    public partial class Form2 : Form
     {
-        public MilkProduction()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void MilkProduction_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void Form2_Load(object sender, EventArgs e)
         {
 
         }
